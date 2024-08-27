@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T23:38:43 IST" name="Suite" finished-at="2024-08-27T23:39:01 IST" duration-ms="17591">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" name="submitOrder" class="seleniumFramework.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorCases">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" name="loginErrorValidation" class="seleniumFramework.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorCases -->
+    </groups>
+    <test started-at="2024-08-27T23:38:43 IST" name="Error Validation Test" finished-at="2024-08-27T23:39:00 IST" duration-ms="16516">
+      <class name="seleniumFramework.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:44 IST" name="launchApplication" finished-at="2024-08-27T23:38:46 IST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:46 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T23:38:50 IST" duration-ms="3330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ssccgl@123, product=ADIDAS ORIGINAL, email=dineshkumar@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:50 IST" name="tearDown" finished-at="2024-08-27T23:38:50 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:50 IST" name="launchApplication" finished-at="2024-08-27T23:38:53 IST" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:53 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T23:38:56 IST" duration-ms="3239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:56 IST" name="tearDown" finished-at="2024-08-27T23:38:56 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:56 IST" name="launchApplication" finished-at="2024-08-27T23:38:59 IST" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:38:59 IST" name="orderHistoryTest" finished-at="2024-08-27T23:39:00 IST" depends-on-methods="seleniumFramework.Tests.SubmitOrderTest.submitOrder" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.Tests.SubmitOrderTest@5a18cd76]" started-at="2024-08-27T23:39:00 IST" name="tearDown" finished-at="2024-08-27T23:39:00 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumFramework.Tests.SubmitOrderTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-08-27T23:38:43 IST" name="Submit Order Test" finished-at="2024-08-27T23:39:01 IST" duration-ms="17591">
+      <class name="seleniumFramework.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:38:43 IST" name="launchApplication" finished-at="2024-08-27T23:38:46 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:38:46 IST" name="loginErrorValidation" finished-at="2024-08-27T23:38:47 IST" duration-ms="973" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or word.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or word.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at seleniumFramework.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:38:48 IST" name="tearDown" finished-at="2024-08-27T23:38:48 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:38:48 IST" name="launchApplication" finished-at="2024-08-27T23:38:50 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:38:50 IST" name="productErrorValidation" finished-at="2024-08-27T23:39:00 IST" duration-ms="10367" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumFramework.pageObjects.ProductCatalogue.addProductToCart(ProductCatalogue.java:51)
+at seleniumFramework.Tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.Tests.ErrorValidationsTest@49ff7d8c]" started-at="2024-08-27T23:39:01 IST" name="tearDown" finished-at="2024-08-27T23:39:01 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumFramework.Tests.ErrorValidationsTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
